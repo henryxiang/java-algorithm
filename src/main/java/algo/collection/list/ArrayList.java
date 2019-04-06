@@ -1,7 +1,5 @@
 package algo.collection.list;
 
-import java.util.Arrays;
-
 public class ArrayList<T> implements List<T> {
     private final int DEFAULT_CAPACITY = 100;
     protected T[] data;
